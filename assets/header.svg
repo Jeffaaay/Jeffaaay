@@ -6,6 +6,7 @@
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b3e9d2" stroke-opacity=".045"/></pattern>
     <linearGradient id="fade"><stop stop-color="#9becbc" stop-opacity="0"/><stop offset="1" stop-color="#9becbc"/></linearGradient>
     <clipPath id="round"><rect width="960" height="360" rx="18"/></clipPath>
+    <clipPath id="ramTravel"><rect x="688" y="149" width="80" height="102"/></clipPath>
     <style>
       .sans{font-family:Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,monospace}
       .ram{animation:press 6s ease-in-out infinite}.signal{stroke-dasharray:8 100;animation:flow 4s linear infinite}
@@ -37,12 +38,12 @@
       <path d="M651 277V112H803V277" fill="none" stroke="#c5d6bc" stroke-width="2"/>
       <rect x="694" y="105" width="66" height="44" rx="7" fill="#203e32" stroke="#a0ba97" stroke-width="2"/>
       <path d="M700 119H754M700 135H754" stroke="#72956c" stroke-width="2"/>
-      <g class="ram">
-        <path d="M727 149V205" stroke="#b9f18a" stroke-width="8"/>
-        <path d="M727 150V202" stroke="#e5ffc9" stroke-width="2"/>
+      <g clip-path="url(#ramTravel)"><g class="ram">
+        <path d="M727 125V205" stroke="#b9f18a" stroke-width="8"/>
+        <path d="M727 126V202" stroke="#e5ffc9" stroke-width="2"/>
         <rect x="693" y="201" width="68" height="13" rx="3" fill="#b9f18a"/>
         <path d="M704 219H750" stroke="#b9f18a" stroke-opacity=".3" stroke-width="2"/>
-      </g>
+      </g></g>
       <path d="M706 269V252H749V269" fill="#3c5843" stroke="#b3cca2" stroke-width="2"/>
       <rect x="633" y="274" width="190" height="13" rx="4" fill="#314e40" stroke="#95b686" stroke-width="2"/>
       <path d="M651 293V298M803 293V298" stroke="#709263" stroke-width="7"/>
