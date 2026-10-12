@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="92" viewBox="0 0 960 92" role="img" aria-labelledby="title">
+  <title id="title">Design, build, measure, refine</title>
+  <style>
+    text{font-family:Consolas,monospace}.flow{stroke-dasharray:18 130;animation:move 10s linear infinite}
+    @keyframes move{to{stroke-dashoffset:-888}}
+    @media(prefers-reduced-motion:reduce){.flow{animation:none}}
+  </style>
+  <rect x="1" y="1" width="958" height="90" rx="12" fill="#102723"/>
+  <path d="M80 29H880" stroke="#395444" stroke-width="2"/>
+  <path d="M80 29H880" stroke="#b9f18a" stroke-width="2" class="flow"/>
+  <g stroke="#afcf98" fill="#102723" stroke-width="2"><circle cx="90" cy="29" r="4"/><circle cx="350" cy="29" r="4"/><circle cx="610" cy="29" r="4"/><circle cx="870" cy="29" r="4"/></g>
+  <g font-size="12" letter-spacing="1.8" fill="#cfdfc2" text-anchor="middle"><text x="90" y="63">01 DESIGN</text><text x="350" y="63">02 BUILD</text><text x="610" y="63">03 MEASURE</text><text x="870" y="63">04 REFINE</text></g>
+</svg>

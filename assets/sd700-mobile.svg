@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="254" viewBox="0 0 480 254" role="img" aria-labelledby="title desc">
+  <title id="title">SD700 — Force control</title>
+  <desc id="desc">From firmware to feedback: embedded control, diagnostics, and test tools. View the SD700 repository.</desc>
+  <style>.sans{font-family:Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,monospace}</style>
+  <rect x="1" y="1" width="478" height="252" rx="16" fill="#f2f4eb" stroke="#d7dfcf"/>
+  <text x="26" y="32" class="mono" font-size="10" letter-spacing="1.6" fill="#536c53">01 / FEATURED REPOSITORY</text>
+  <rect x="380" y="17" width="74" height="24" rx="12" fill="#e1e9da"/>
+  <circle cx="393" cy="29" r="3" fill="#416b42"/>
+  <text x="403" y="33" class="mono" font-size="10" fill="#416b42">PUBLIC</text>
+  <text x="23" y="97" class="sans" font-size="55" font-weight="700" letter-spacing="-2" fill="#18392c">SD700</text>
+  <text x="26" y="133" class="sans" font-size="21" letter-spacing="-.4" fill="#31533b">Force control, from firmware to feedback.</text>
+  <text x="26" y="163" class="sans" font-size="15" fill="#61705b">Embedded control · Diagnostics · Test tools</text>
+  <rect x="26" y="192" width="167" height="36" rx="6" fill="#234c35"/>
+  <text x="41" y="216" class="sans" font-size="14" font-weight="600" fill="#f5f5eb">View repository</text>
+  <path d="M168 212L178 202M168 202H178V212" stroke="#c4ed9f" stroke-width="1.5" fill="none"/>
+  <text x="217" y="215" class="mono" font-size="11" fill="#526d4b">C / MODBUS / PYTHON</text>
+</svg>
